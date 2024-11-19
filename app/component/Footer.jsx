@@ -4,6 +4,11 @@ import logoImage from "asset/logo.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import respo_play from "asset/respo-play-v1.png";
 import plus_18 from "asset/18plus-v1.png";
+import facebook from "asset/facebook.png";
+import twitter from "asset/twitter.png";
+import instagram from "asset/instagram.png";
+import linkedin from "asset/linkedin.png";
+import telegram from "asset/telegram.png";
 
 const Footer = () => {
   return (
@@ -25,39 +30,39 @@ const Footer = () => {
               </div>
               <div className="icone flex justify-center">
                 <Image
-                  src={""}
+                  src={facebook}
                   alt="image"
                   height={50}
                   width={50}
-                  className="border border-gray-400 rounded-lg mx-2"
+                  className="mx-2"
                 />
                 <Image
-                  src={""}
+                  src={twitter}
                   alt="image"
                   height={50}
                   width={50}
-                  className="border border-gray-400 rounded-lg mx-2"
+                  className="mx-2"
                 />
                 <Image
-                  src={""}
+                  src={instagram}
                   alt="image"
                   height={50}
                   width={50}
-                  className="border border-gray-400 rounded-lg mx-2"
+                  className="mx-2"
                 />
                 <Image
-                  src={""}
+                  src={linkedin}
                   alt="image"
                   height={50}
                   width={50}
-                  className="border border-gray-400 rounded-lg mx-2"
+                  className="mx-2"
                 />
                 <Image
-                  src={""}
+                  src={telegram}
                   alt="image"
                   height={50}
                   width={50}
-                  className="border border-gray-400 rounded-lg mx-2"
+                  className="mx-2"
                 />
               </div>
             </div>

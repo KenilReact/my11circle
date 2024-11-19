@@ -21,11 +21,11 @@ const Navbar = () => {
             <p className="text-lg text-white mx-2 md:inline lg:text-lg md:text-base xs:hidden">
               Not a Member Yet?
             </p>
-            <Link href="/register" className="text-lg text-red-400 mx-2 lg:text-lg md:text-base xs:text-sm">
+            <Link href="#" className="text-lg text-red-400 mx-2 lg:text-lg md:text-base xs:text-sm">
               Register Now
             </Link>
             <Link
-              href="/login"
+              href="#"
               className="text-lg text-white border border-white rounded-lg px-4 py-1 mx-2 lg:text-lg md:text-base xs:text-sm"
             >
               Log In

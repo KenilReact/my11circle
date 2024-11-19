@@ -9,12 +9,18 @@ import banner_2 from "asset/my11circle-banner-2.jpg";
 import banner_3 from "asset/my11circle-banner-3.jpg";
 
 import missed_call_banner from "asset/missed-call-top-banner.jpeg";
-import user_rating from "asset/vector7.png";
+import user_rating from "asset/vector7.svg";
+import total_user from "asset/vector5.svg";
+import won from "asset/vector6.svg";
 import easy_create from "asset/3-easy-create-v2.png";
 import easy_join from "asset/3-easy-join-free-v2.png";
 import easy_select from "asset/3-easy-select-v2.png";
 import se_3_image from "asset/real-fantsy-v1.png";
 import call_fix from "asset/give-a-missed-call-fix.png";
+import review_1 from "asset/man1.jpg";
+import review_2 from "asset/man2.jpg";
+import review_3 from "asset/man3.jpg";
+import review_4 from "asset/man4.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
@@ -171,7 +177,7 @@ const HomePage = () => {
             <div className="useRating flex items-end lg:flex-row lg:items-end md:flex-col md:items-center xs:flex-col xs:items-center">
               <div className="iamge border-2 border-gray-500 ">
                 <Image
-                  src={user_rating}
+                  src={total_user}
                   alt="image"
                   width={100}
                   height={100}
@@ -191,7 +197,7 @@ const HomePage = () => {
             <div className="useRating flex items-end lg:flex-row lg:items-end md:flex-col md:items-center xs:flex-col xs:items-center">
               <div className="iamge border-2 border-gray-500">
                 <Image
-                  src={user_rating}
+                  src={won}
                   alt="image"
                   width={100}
                   height={100}
@@ -435,14 +441,13 @@ const HomePage = () => {
           >
             <SwiperSlide>
               <div className="grid grid-cols-2">
-                <div className="review-1 flex my-10 items-center ms-16 lg:flex-row md:flex-col xs:flex-col">
-                  <div className="image">
+                <div className="flex my-10 items-center ms-7 md:ms-16 lg:flex-row md:flex-col xs:flex-col">
+                  <div className="relative w-24 h-24 flex-shrink-0">
                     <Image
-                      src={""}
+                      src={review_1}
                       alt="image"
-                      height={100}
-                      width={100}
-                      className="border border-gray-200 rounded-full"
+                      fill
+                      className="rounded-full object-cover border border-gray-200"
                     />
                   </div>
                   <div className="comment mx-7 lg:text-left md:text-center md:mt-5 xs:text-center xs:mt-5">
@@ -450,20 +455,19 @@ const HomePage = () => {
                       Raja Deshwal, Aligarh, Uttar Pradesh Winnings ₹1 Crore
                     </p>
                     <p className="py-3">
-                      “ I am so happy and thankful that I won this amount at
-                      such a young age. Thank you My11Circle ”
+                      " I am so happy and thankful that I won this amount at
+                      such a young age. Thank you My11Circle "
                     </p>
                   </div>
                 </div>
 
-                <div className="review-1 flex my-10 items-center me-16 lg:flex-row md:flex-col xs:flex-col">
-                  <div className="image">
+                <div className="flex my-10 items-center me-7 md:me-16 lg:flex-row md:flex-col xs:flex-col">
+                  <div className="relative w-24 h-24 flex-shrink-0">
                     <Image
-                      src={""}
+                      src={review_2}
                       alt="image"
-                      height={100}
-                      width={100}
-                      className="border border-gray-200 rounded-full"
+                      fill
+                      className="rounded-full object-cover border border-gray-200"
                     />
                   </div>
                   <div className="comment mx-7 lg:text-left md:text-center md:mt-5 xs:text-center xs:mt-5">
@@ -471,8 +475,8 @@ const HomePage = () => {
                       Raja Deshwal, Aligarh, Uttar Pradesh Winnings ₹1 Crore
                     </p>
                     <p className="py-3">
-                      “ I am so happy and thankful that I won this amount at
-                      such a young age. Thank you My11Circle ”
+                      " I am so happy and thankful that I won this amount at
+                      such a young age. Thank you My11Circle "
                     </p>
                   </div>
                 </div>
@@ -480,14 +484,13 @@ const HomePage = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="grid grid-cols-2">
-                <div className="review-1 flex my-10 items-center ms-16 lg:flex-row md:flex-col xs:flex-col">
-                  <div className="image">
+                <div className="flex my-10 items-center ms-7 md:ms-16 lg:flex-row md:flex-col xs:flex-col">
+                  <div className="relative w-24 h-24 flex-shrink-0">
                     <Image
-                      src={""}
+                      src={review_3}
                       alt="image"
-                      height={100}
-                      width={100}
-                      className="border border-gray-200 rounded-full"
+                      fill
+                      className="rounded-full object-cover border border-gray-200"
                     />
                   </div>
                   <div className="comment mx-7 lg:text-left md:text-center md:mt-5 xs:text-center xs:mt-5">
@@ -495,20 +498,19 @@ const HomePage = () => {
                       Raja Deshwal, Aligarh, Uttar Pradesh Winnings ₹1 Crore
                     </p>
                     <p className="py-3">
-                      “ I am so happy and thankful that I won this amount at
-                      such a young age. Thank you My11Circle ”
+                      " I am so happy and thankful that I won this amount at
+                      such a young age. Thank you My11Circle "
                     </p>
                   </div>
                 </div>
 
-                <div className="review-1 flex my-10 items-center me-16 lg:flex-row md:flex-col xs:flex-col">
-                  <div className="image">
+                <div className="flex my-10 items-center me-7 md:me-16 lg:flex-row md:flex-col xs:flex-col">
+                  <div className="relative w-24 h-24 flex-shrink-0">
                     <Image
-                      src={""}
+                      src={review_4}
                       alt="image"
-                      height={100}
-                      width={100}
-                      className="border border-gray-200 rounded-full"
+                      fill
+                      className="rounded-full object-cover border border-gray-200"
                     />
                   </div>
                   <div className="comment mx-7 lg:text-left md:text-center md:mt-5 xs:text-center xs:mt-5">
@@ -516,8 +518,8 @@ const HomePage = () => {
                       Raja Deshwal, Aligarh, Uttar Pradesh Winnings ₹1 Crore
                     </p>
                     <p className="py-3">
-                      “ I am so happy and thankful that I won this amount at
-                      such a young age. Thank you My11Circle ”
+                      " I am so happy and thankful that I won this amount at
+                      such a young age. Thank you My11Circle "
                     </p>
                   </div>
                 </div>

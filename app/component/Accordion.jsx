@@ -27,7 +27,9 @@ const Accordion = ({ question, answer, bg, icon }) => {
             <FaPlus />
           )}
         </div>
-        {isActive && <p className="answer p-4 lg:text-base xs:text-sm">{answer}</p>}
+        {isActive && (
+          <p className="answer p-4 lg:text-base xs:text-sm">{answer}</p>
+        )}
       </div>
     </>
   );
